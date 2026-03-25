@@ -1,16 +1,22 @@
-# This is a sample Python script.
+import sys
+from PyQt5.QtWidgets import QApplication, QLabel, QWidget
+from PyQt5.QtGui import QPixmap
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+img = "/img"
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def main():
+    app = QApplication(sys.argv)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    window = QWidget()
+    window.setWindowTitle('Test PyQt5')
+    window.setGeometry(100, 100, 280, 80)
+    helloMsg = QLabel('<h1>PyQt5 działa!</h1>', parent=window)
+    helloMsg.move(60, 15)
+
+    window.show()
+
+    # 2. Uruchomienie pętli zdarzeń
+    sys.exit(app.exec_())
+
+main()

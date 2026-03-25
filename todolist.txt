@@ -1,0 +1,13 @@
+1.Przygotowanie do projektu
+    -stworzyć projekt ✓
+    -skonfigurowac gita ✓
+    -zainstalowac pythona ✓
+    -pobrac potrzebne biblioteki ✓
+        *biblioteka do interface  pyq5✓
+2.możliwośc wczytania obrazków i ich pokazywania
+a)znaleźc biblioteki:
+*biblioteka do interface'u
+b)Pokazanie Obrazka na ekranie
+
+3.uczenie neuronowe  (ból w dupie)
+4.interface użytkownika
